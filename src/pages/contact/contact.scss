@@ -1,3 +1,40 @@
-page-contact {
+page-contact{
+.suporte {
+  font-weight:inherit;
+  color: black;
+  text-align: center;
+  position: relative;
+}
+
+.suporte-final {
+
+  ion-list-header {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    background-color: inherit;
+  }
+  ion-icon {
+    width: 40px;
+    height: 10px;
+    text-shadow: 0px 0px 5px white;
+}
+  button {
+    color: white;
+    background-color: black;
+  }
+  ion-item {
+    background-color: inherit;
+  }
+}
+
+.bgSizeCover {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/115/885/original/teal-degrade-vector.jpg');
+  height:600px;
+  width: 600px;
+  background-size: 1000px;
+}
 
 }

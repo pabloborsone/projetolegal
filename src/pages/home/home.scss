@@ -1,3 +1,49 @@
 page-home {
 
+    .title {
+    position:relative;
+    text-align: center;
+    text-shadow: 0px 0px 10px red;
+    color: red;
+    font-weight: inherit;
+
+
+  }
+
+  .bgSizeCover {
+    height:640px;
+    width: 360px;
+    background-image: url('http://sm.ign.com/ign_br/screenshot/default/5-dicas-para-montar-seu-primeiro-deck-de-yu-gi-ohjpg1_686c.jpg');
+    background-size: 600px;
+    opacity: 0.25;
+  }
+
+  .card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+    height: 150px;
+    }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    text-shadow: 0px 0px 10px red;
+    font-weight: inherit;
+    font-size: 3.0em;
+    width: 100%;
+    color: white;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    text-shadow: 0px 0px 10px red;
+    top: 65%;
+    width: 100%;
+    color: white;
+
+    }
+  }
 }
